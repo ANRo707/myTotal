@@ -24,7 +24,7 @@ type match struct {
 }
 
 const (
-	FLASHSCORE_URL       = "http://www.flashscore.ru"
+	FLASHSCORE_URL       = "https://www.flashscore.com/"
 	FLASHSCORE_LOAD_TIME = 10
 )
 
