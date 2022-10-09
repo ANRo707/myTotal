@@ -36,7 +36,7 @@ func GetGames(chromeDriverPath string) []matchBlock {
 	if err != nil {
 		log.Println(err)
 	}
-	desired := webdriver.Capabilities{"Platform": "Windows"}
+	desired := webdriver.Capabilities{"Platform": "Linux"}
 	required := webdriver.Capabilities{}
 	session, err := chromeDriver.NewSession(desired, required)
 	if err != nil {
